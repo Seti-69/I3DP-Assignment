@@ -1,0 +1,31 @@
+material gemAmmo
+{
+	technique
+	{
+		pass
+		{
+			ambient 0 0 1 1
+			diffuse 0 0 1 1
+			specular 1 1 1 1 45
+			emissive 0.4 0.1 0.1
+		}
+
+	}
+
+}
+
+material gemHealth
+{
+	technique
+	{
+		pass
+		{
+			ambient 1 0 0 1
+			diffuse 0 1 0 1
+			specular 1 1 1 1 45
+			emissive 0.1 0.3 0.3
+		}
+
+	}
+
+}

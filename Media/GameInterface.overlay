@@ -1,0 +1,63 @@
+GameInterface
+{
+	container Panel(GreenBackground)
+	{
+		material     GameInterface/BackPlate
+		metrics_mode pixels
+		top          0
+		left         0
+		width        1024
+		height       60
+
+		element Panel(HealthBar)
+		{
+			material     GameInterface/HealthBar
+			metrics_mode pixels
+			top          17
+			left         12
+			width        150
+			height       12
+		}
+		
+		element Panel(ShieldBar)
+		{
+			material     GameInterface/ShieldBar
+			metrics_mode pixels
+			top          30
+			left         12
+			width        150
+			height       12
+		}
+		
+		element TextArea(ScoreText)
+		{
+			metrics_mode  pixels
+			left          512
+			top           16
+			font_name     BlueHighway
+			char_height   30
+			alignment     center
+			colour        0.53 0.86 0.52 1.0
+		}
+		element TextArea(GameOverText)
+		{
+			metrics_mode  pixels
+			left          512
+			top           16
+			font_name     BlueHighway
+			char_height   60
+			alignment     center
+			colour        0.53 0.86 0.52 1.0
+		}
+		element TextArea(TimerText)
+		{
+			metrics_mode  pixels
+			left          512
+			top           16
+			font_name     BlueHighway
+			char_height   30
+			alignment     center
+			colour        0.53 0.86 0.52 1.0
+		}
+	}
+}

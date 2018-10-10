@@ -1,0 +1,46 @@
+material GameInterface/HealthBar
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture GreenGradient.png
+			}
+		}
+	}
+}
+
+material GameInterface/ShieldBar
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture BlueGradient.png
+			}
+		}
+	}
+}
+
+material GameInterface/BackPlate
+{
+	technique
+	{
+		pass
+		{
+			scene_blend alpha_blend
+
+
+			texture_unit
+			{
+				texture interface_backplate.png
+				
+			}
+			
+		}
+	}
+}

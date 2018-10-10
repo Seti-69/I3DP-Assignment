@@ -1,0 +1,16 @@
+material Floor
+{
+	// Hardware skinning techniique
+	technique
+	{
+		pass
+		{
+			
+
+			texture_unit
+			{
+				texture floor1.jpg
+			}
+		}
+	}
+}
